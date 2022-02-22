@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 59, 25);
+    color: white; 
+     font-family: 'Roboto', sans-serif;
+     ;
+}
+
+#navbar .navbar-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+
+.navbar-container ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.navbar-container li{
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-navbar{
+    display: flex;
+    margin-right:30%;
+    font-size: 20px;
+}
+
+section{
+    height: 100vh;
+    
+
+}
+
+.section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(./img/music.jpg) center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    height: 80vh;
+}
+
+
+.welcome{
+
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+
+}
+
+span{
+    color: gold;
+    letter-spacing: 2px;
+    font-size: 5rem;
+}
+
+button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: green;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: gold;
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+}
+
+
+/*Section2*/
+
+
+.section-container-2{
+    background: url(./img/royalty.jpg) center center/cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: color;
+    
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:px;
+    padding: 15px;
+    width: 65%;
+    height: 80%;
+    background-color:#f3f5f7;
+    border-radius: 20px;
+
+    color:black;
+
+    font-weight: bold;
+    
+    
+}
+
+.titulo-sobre{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+}
+
+.sobre{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    
+    
+}
+
+
+.exibir-musica{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(0, 59, 25);
+    
+    
+}
+
+.aperte-o-play, .jackson{
+    color: white;
+    font-family: Roboto;
+    letter-spacing: 2px;
+}
+
+
+audio{
+    width: 35%;
+}
+
+
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 1px;
+}
+
